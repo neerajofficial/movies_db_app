@@ -1,0 +1,19 @@
+.item {
+	border-radius:30px;
+	padding:12.5px;
+	background: #644cad;
+    margin-bottom: 15px;
+	padding-left: 50px;
+}
+
+.item p {
+	background: transparent;
+	font-size: 1rem;
+	color: #fff;
+}
+
+.itemIcon {
+	background: url("../../../../assets/icons/reload-icon.png") no-repeat left center, #644cad;
+    background-position: 18px center;
+     background-size: 18px 18px;
+}

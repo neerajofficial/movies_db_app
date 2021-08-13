@@ -1,0 +1,11 @@
+@import url('./assets/_settings.css');
+
+*, 
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--regular);
+	background: var(--primary);
+	font-size: var(--defaultSize);
+}

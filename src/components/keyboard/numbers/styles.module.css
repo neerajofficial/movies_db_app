@@ -1,0 +1,8 @@
+.numbers {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.numbers div {
+	margin: 0.4rem;
+}

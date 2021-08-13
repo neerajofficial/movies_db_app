@@ -1,0 +1,49 @@
+.text {
+	font: inherit;
+	display: block;
+	margin: 0;
+	padding: 0;	
+}
+
+.heading {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1.4rem;
+	font-size: 1.4rem;
+	color: #f3ad0b;
+}
+
+.heading--results {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1.4rem;
+	color: #fff;	
+	font-size: 1.6rem;
+}
+
+.seach-item {
+	width: 100%;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.seach-item span{
+	padding: 12.5px;
+	background: #644cad;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 1rem;
+	display: inline-block;
+}
+
+.seach-item span img{
+    width: 18px;
+	margin-right: 15px;
+}
+
+.title {
+	color: #fff;
+	margin: 0px;
+	padding-top:5px;
+	font-weight:400;
+}

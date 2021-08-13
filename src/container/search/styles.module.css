@@ -1,0 +1,27 @@
+.search {
+	padding: 1rem 1.4rem;
+
+}
+
+.search .gridContainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "recentBox"
+						"keyboard";
+}
+
+.recentBox {
+	grid-area: recentBox;
+}
+
+.keyboard {
+	grid-area: keyboard;
+}
+
+@media (min-width:  767px) {
+	.search .gridContainer {
+		display: grid;
+		grid-template-columns: auto 1fr 1fr;
+		grid-template-areas: "recentBox . keyboard";
+	}
+}

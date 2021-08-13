@@ -1,0 +1,16 @@
+.errorBox {
+	position: absolute;
+	z-index: 99;
+	right: 0;
+	top: 1rem;
+	padding: 1rem 1.5rem;
+	padding-left: 2.5rem;
+	cursor: pointer;
+	font: inherit;
+	color: #fff;
+	background: url("../../../assets/icons/close-icon.png") no-repeat left center,
+    #994cad;
+    background-position: 10px;
+    background-size: 12px 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}

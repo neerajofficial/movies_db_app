@@ -1,0 +1,9 @@
+.searchResult {
+	padding: 2rem 1.4rem;
+}
+
+.searchResult .moviesList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

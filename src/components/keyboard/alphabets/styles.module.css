@@ -1,0 +1,9 @@
+.alphabets {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.alphabets div {
+	margin: 0.4rem;
+}
+

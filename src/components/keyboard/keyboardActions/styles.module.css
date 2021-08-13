@@ -1,0 +1,19 @@
+.bottomActions {
+	margin-top: 0.4rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 0.2rem;
+	align-items: center;
+	justify-items: space-between;
+}
+
+@media (min-width: 567px) {
+	.bottomActions {
+		margin-top: 0.4rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1.1rem;
+		align-items: center;
+		justify-items: space-between;
+	}
+}
